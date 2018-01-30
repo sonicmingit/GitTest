@@ -1,5 +1,10 @@
 package com.beijiait;
 
+/**
+ * 连接git测试
+ * @author haoyiming  
+ * @date 2017年9月12日 下午5:05:06
+ */
 public class HelloGit {
 
 	public static void main(String[] args) {

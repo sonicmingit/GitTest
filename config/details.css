@@ -1,0 +1,11 @@
+/* 手指样式 */
+.poi {
+	cursor: pointer;
+}
+/* 必选星号样式 <i class="star">*</i>*/
+.star {
+	color: red;
+	font-style: normal;
+	font: 130%;
+	margin-right: 3px;
+}

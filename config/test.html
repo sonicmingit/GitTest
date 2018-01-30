@@ -1,0 +1,34 @@
+
+<!-- 搜索框 -->
+<div class="nav-search">
+	<span class="input-icon"> <input type="text"
+		placeholder="这里输入关键词" class="nav-search-input" id="nav-search-input"
+		autocomplete="off" name="keywords" value="${pd.keywords }" /> <i
+		class="ace-icon fa fa-search nav-search-icon"></i>
+	</span>
+</div>
+
+<!-- 下拉搜索 -->
+<td style="vertical-align: top; padding-left: 2px;">
+<select class="chosen-select form-control" name="关键字" id="关键字"
+	data-placeholder="默认提示" style="vertical-align: top; width: 根据宽度设置;">
+		<option value=""></option>
+		<!-- 默认留空一个 -->
+		<option value="值" ${关键字=='值'?'selected':'' }>字段</option>
+</select></td>
+
+
+<!-- 时间搜索 -->
+<td style="padding-left: 2px;">
+	<input class="span10 date-picker"
+	name="lastEnd" id="lastEnd" value="${pd.lastEnd }" type="text"
+	data-date-format="yyyy-mm-dd" readonly="readonly" style="width: 98px;"
+	placeholder="结束时间" title="发送结束时间" />
+</td>
+
+<!-- 搜索按钮 -->
+<td style="vertical-align: top; padding-left: 2px">
+<a class="btn btn-light btn-xs" onclick="tosearch();" title="检索">
+<i id="nav-search-icon" class="ace-icon fa fa-search bigger-110 nav-search-icon blue"></i>
+</a>
+</td>

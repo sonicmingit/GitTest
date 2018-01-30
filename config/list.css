@@ -1,0 +1,33 @@
+/* 搜索区 */
+table.list_search{
+	margin-top: 5px;
+}
+
+
+/* 列表区 */
+table.list_main>th,td{
+	text-align: center;
+}
+table.list_main td>div {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	text-align: center;
+}
+
+
+/* 功能和分页 */
+table.list_bottom {
+	width: 100%;
+}
+table.list_bottom>td {
+	vertical-align: top;
+}
+/* 分页 */
+div.pagination {
+	float: right;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
