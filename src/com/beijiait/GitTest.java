@@ -13,8 +13,9 @@ public class GitTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String str = "���Գ�ͻ";
+		String str = "分支冲突";
 		System.out.println(str);
+		String str1 = "远程提交"
 	}
 
 }
