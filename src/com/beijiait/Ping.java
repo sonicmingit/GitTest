@@ -5,7 +5,6 @@ import java.net.InetAddress;
 
 
 public class Ping {
-
 	public static void main(String[] args) {
 		java.lang.String host = "220.181.57.217";
 		int timeOut = 3000;
